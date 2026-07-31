@@ -1,7 +1,27 @@
 aid: onfarm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onfarm.png
 name: OnFarm
-description: OnFarm is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OnFarm Systems, founded in 2012 and headquartered in Fresno, California, was
+  an agriculture IoT data-integration company that offered a customizable
+  dashboard aggregating in-field sensor and remotely gathered data (weather,
+  soil, irrigation) into a single view for farming operations across the US,
+  Europe, and Asia. OnFarm was acquired by SWIIM System in July 2018, at which
+  point CEO Lance Donny became SWIIM's COO. The onfarm.com domain is now parked
+  and listed for sale, and no live public API, developer documentation, or SDK
+  surface remains. This profile was surfaced as a 500 Global portfolio lead;
+  enrichment found no active API surface to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/onfarm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by SWIIM System in July 2018; onfarm.com domain now parked/for-sale.
+x-acquired-by: swiim-system
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Internet of Things
+- Data Integration
+- Analytics
+- Irrigation
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://onfarm.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
